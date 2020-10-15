@@ -1,0 +1,21 @@
+<h2>Screen541817</h2>
+<form class='form'>
+<div  class=' form-group'>
+<label  class=' label'>Name</label>
+<input  class=' input form-control' placeholder='Type here your name' name=input_template-iw32/>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Email</label>
+<input  class=' input form-control' type='email' placeholder='Type here your email' name=input_template-it8n/>
+</div>
+<div  class=' form-group'>
+<label  class=' label'>Message</label>
+<textarea  class=' textarea form-control' name=textbox_template-isic9></textarea>
+</div>
+<div  class=' form-group'>
+<button  class=' button btn btn-primary' type='submit' name=button_template-i4ui7 (click)="GpSearch()">Search</button>
+</div>
+</form>
+<div class='template-ioeti' name=grid_template-ioeti>
+<ag-grid-angular #agGrid (selectionChanged)="onSelectionChanged($event)" style="width: 100%; height: 100%;"></ag-grid-angular>
+</div>

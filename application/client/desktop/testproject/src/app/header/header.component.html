@@ -28,6 +28,16 @@
                                         <a class="list-group-item list-group-item-success" [routerLink]="['/admin']">{{'source.admin' | i18next}}</a>
                                       </div>
 <div class="list-group panel">
+                            <a href="#stdentfea" class="list-group-item list-group-item-success" data-toggle="collapse"
+                              data-parent="#MainMenu">stdentfea <i class="fa fa-caret-down"></i></a>
+                            <div class="collapse" id="stdentfea">
+<a class="list-group-item" [routerLink]="['/screen931541']">{{'source.screen931541' | i18next}}</a>
+<a class="list-group-item" [routerLink]="['/screen642369']">{{'source.screen642369' | i18next}}</a>
+<a class="list-group-item" [routerLink]="['/screen841984']">{{'source.screen841984' | i18next}}</a>
+<a class="list-group-item" [routerLink]="['/screen541817']">{{'source.screen541817' | i18next}}</a>
+</div>
+</div>
+<div class="list-group panel">
                                         <a class="list-group-item list-group-item-success" *ngIf='userId!=null' (click)="logout()">{{'source.logout' | i18next}}</a>
                                       </div>
  <li>
